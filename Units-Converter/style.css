@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    top: 30px;
+    margin: 0;
+    bottom: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Inter, sans-serif;
+    background-image: url("michael-dziedzic-dvHkp6FzfIM-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; 
+}
+
+div#footer {
+    text-align: center;
+    font-weight: 500;
+    background-color: #d2d2d2;
+    opacity: 0.55;
+    border-radius: 5px;
+    max-width: 400px;
+    max-height: 100px;
+    top: 50px;
+    padding: 10px;
+    margin: auto;
+    line-height: 1.5em;
+
+}
+
+#app-container {
+    width: 550px;
+    height: 550px;
+    background-color: #1f2937;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    top: 20px;
+
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 10px;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+#cont-input {
+    width: 550px;
+    height: 200px;
+    border-radius: 5px;
+    /*background-color: #585dfe;*/
+    background-image: linear-gradient(to right, #585dfe,  #fb3796);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+::placeholder {
+    color: #1f2937;
+    font-size: 50px;
+    font-weight: bolder;
+  }
+
+input#input-value {
+    text-align: center;
+    width: 100px;
+    height: 60px;
+    border: none;
+    border-bottom: .5rem solid #fff;
+    background-color: inherit;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    font-size: 50px;
+    color: #1f2937;
+}
+
+.subs {
+    font-weight: 600;
+    color: #d2d2d2;
+    line-height: 10px;
+    padding: 20px;
+    margin-top: 15px;
+}
+ .para {
+    font-weight: 400;
+    color: #d2d2d2;
+    line-height: 10px;
+    padding: 10px;
+ }
